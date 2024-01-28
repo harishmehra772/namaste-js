@@ -1,0 +1,28 @@
+.container{
+    display: flex;
+    justify-content:center  ;
+    align-items: center;
+    height: 80vh;
+    background-color: #cdb4db;
+    flex-wrap: wrap;
+}
+
+.heading{
+    align-items: center;
+    text-align: center;
+}
+
+.item{
+    background-color:#264653 ;
+    height: 400px;
+    width: 250px;
+    margin:10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 gray;
+    
+
+}
+
+.item:hover{
+    box-shadow: 0 4px 8px 0 red;
+}
